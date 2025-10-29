@@ -1,4 +1,4 @@
-# Jingo SDK Core
+# Jingo Finance SDK Core
 
 [![Unit Tests](https://github.com/Jingo-Finance/sdk-core/workflows/Unit%20Tests/badge.svg)](https://github.com/Jingo-Finance/sdk-core/actions?query=workflow%3A%22Unit+Tests%22)
 [![Lint](https://github.com/Jingo-Finance/sdk-core/workflows/Lint/badge.svg)](https://github.com/Jingo-Finance/sdk-core/actions?query=workflow%3ALint)
