@@ -1,15 +1,16 @@
-import invariant from 'tiny-invariant'
-import { Currency } from './currency'
-import { NativeCurrency } from './nativeCurrency'
-import { Token } from './token'
-import { WETH9 } from './weth9'
+import invariant from 'tiny-invariant';
+
+import { Currency } from './currency';
+import { NativeCurrency } from './nativeCurrency';
+import { Token } from './token';
+import { WETH9 } from './weth9';
 
 /**
- * Ether is the main usage of a 'native' currency, i.e. for Syscoin and all testnets
+ * Ether is the main usage of a 'native' currency, i.e. for Plasma and all testnets
  */
 export class Ether extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'SYS', 'Syscoin')
+    super(chainId, 18, 'XPL', 'Plasma')
   }
 
   public get wrapped(): Token {

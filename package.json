@@ -11,7 +11,7 @@
   "repository": "https://github.com/Jingo-Finance/sdk-core.git",
   "keywords": [
     "jingo",
-    "syscoin"
+    "Plasma"
   ],
   "module": "dist/sdk-core.esm.js",
   "scripts": {
